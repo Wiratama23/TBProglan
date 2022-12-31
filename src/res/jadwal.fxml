@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.web.WebView?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="964.0" style="-fx-background-color: A3C6DA;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="964.0" style="-fx-background-color: A3C6DA;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.jadwalController">
    <children>
       <WebView fx:id="webView" layoutY="65.0" prefHeight="555.0" prefWidth="964.0" />
       <HBox fx:id="hboxt" AnchorPane.topAnchor="10.0">
