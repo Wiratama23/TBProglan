@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="964.0" style="-fx-background-color: A3C6DA;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <WebView fx:id="webView" layoutY="65.0" prefHeight="555.0" prefWidth="964.0" />
+      <HBox fx:id="hboxt" AnchorPane.topAnchor="10.0">
+         <children>
+            <Pane id="but" fx:id="backbut" onMouseClicked="#back" prefHeight="28.0" prefWidth="35.0">
+               <children>
+                  <FontAwesomeIconView glyphName="ARROW_LEFT" layoutX="9.0" layoutY="27.0" size="20" />
+               </children>
+            </Pane>
+            <Pane id="but" fx:id="forwardbut" onMouseClicked="#forward" prefHeight="28.0" prefWidth="35.0">
+               <children>
+                  <FontAwesomeIconView glyphName="ARROW_RIGHT" layoutX="9.0" layoutY="27.0" size="20" />
+               </children>
+            </Pane>
+            <Pane id="but" fx:id="refreshbut" onMouseClicked="#refreshPage" prefHeight="26.0" prefWidth="35.0">
+               <children>
+                  <FontAwesomeIconView glyphName="UNDO" layoutX="9.0" layoutY="29.0" size="20" text="" />
+               </children>
+            </Pane>
+            <Pane id="but" fx:id="refreshbut1" onMouseClicked="#homePage" prefHeight="26.0" prefWidth="41.0">
+               <children>
+                  <FontAwesomeIconView glyphName="HOME" layoutX="7.0" layoutY="27.0" size="20" wrappingWidth="13.300000190734863" />
+               </children>
+            </Pane>
+            <TextField id="searchtf" fx:id="searchtf" onAction="#checking" prefHeight="41.0" prefWidth="634.0" promptText="Link here" style="-fx-background-color: CADEEA; -fx-background-radius: 80px; -fx-border-radius: 80px;" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
